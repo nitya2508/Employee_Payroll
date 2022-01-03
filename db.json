@@ -1,0 +1,24 @@
+{
+  "employees": [
+    {
+      "profilePic": "../Assets/Ellipse -1.png",
+      "empName": "Nitya",
+      "empGender": "Female",
+      "empDept": "Engineer",
+      "empSalary": "8000",
+      "empStartDate": "15/may/2015",
+      "empNote": "qwerty",
+      "id": 1
+    },
+    {
+      "profilePic": "../Assets/Ellipse -4.png",
+      "empName": "Hema",
+      "empGender": "Female",
+      "empDept": "Engineer",
+      "empSalary": "6000",
+      "empStartDate": "13/march/2017",
+      "empNote": "Hello",
+      "id": 2
+    }
+  ]
+}

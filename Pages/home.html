@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Employee Payroll</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../CSS/home.css" />
+    <script src="../js/getEmpData.js"></script>
+    
+</head>
+
+<body>
+
+    <div class="screen">
+
+        <div class="imgDiv">
+            <div class="titlediv">
+                <img class="image" src="../Assets/logo.png" />
+                <div class="title">
+                    <p class="small">
+                        <span >EMPLOYEE</span><br>
+                        PAYROLL
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="header">
+                <p class="details">Employee Details</p>
+                <button class="addbutton"  onclick="window.location.href='payrollForm.html'">
+                   Add User</button>
+            </div>
+            
+
+            <div class="table-main">
+                <table id="table-display" class="table">
+                    <th>PROFILE</th>
+                    <th>NAME</th>
+                    <th>GENDER</th>
+                    <th>DEPARTMENT</th>
+                    <th>SALARY</th>
+                    <th>STARTDATE</th>
+                    <th>ACTIONS</th>
+                </table>
+            </div> 
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
